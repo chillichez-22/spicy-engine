@@ -12,9 +12,3 @@ int main() {
 	std::getchar(); 
 	return 0;
 }
-
-
-int div( int int_to_div ){
-
-	return int_to_div;
-}
