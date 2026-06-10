@@ -7,7 +7,7 @@ Checklist to give an overview on the current tasks.
 - [ ] - Vector Maths & Vector Arithmetic
 - [ ] - Trigonometry 
 - [ ] - Matrices
-- [ ] - Vector & Matrix Maths togethor
+- [ ] - Vector & Matrix Maths together
 - [ ] - Clear Documentation Covering This Section
 
 #### Shape Creation

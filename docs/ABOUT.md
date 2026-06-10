@@ -19,6 +19,40 @@ Tutorials
 
 These help to create better documentation and tailor the specific amount of detail / clarity / or understanding the reader needs.
 
+## Writing Code
+
+### Naming Conventions
+
+##### Files
+
+All files will be lowercase with _ to separate new words.
+
+main.cpp
+new_file.hpp
+text_for_something.txt
+new_file_2.md
+
+##### Classes & Structs
+
+All classes are structs will be PascalCase where each new word is a capital letter with no word delimiter.
+
+class Vector
+struct MyNewStruct
+class LevelDataChunk
+
+##### Methods & Variables & Everything else
+
+Everything else will be camelCase where the first word has no capital letter at the start, but every following word has a capital start, with no word delimiter.
+
+int add();
+float subtractAllVectors();
+bool isCollidingWithSomething();
+
+int myInt;
+float widthOfLine;
+Vector2 screenSpaceCoord;
+
+
 ## Writing Docs
 
 Doxygen will be used primarily for code ==documentation== of function, classes with "/\*\*" ending with "*/" and variables with "/**<"  "*/">.

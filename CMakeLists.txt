@@ -13,8 +13,10 @@ add_library( engine
     # Maths
     spicy-engine/source/maths/math.cpp
 
-    spicy-engine/source/maths/vector.cpp
     spicy-engine/source/maths/matrix.cpp
+    spicy-engine/source/maths/vector_2.cpp
+    spicy-engine/source/maths/vector_3.cpp
+    spicy-engine/source/maths/vector_4.cpp
 
     # Shapes
     spicy-engine/source/shapes/shape.cpp
