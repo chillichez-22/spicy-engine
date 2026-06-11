@@ -3,8 +3,8 @@ Checklist to give an overview on the current tasks.
 # Checklist
 
 #### Maths
-- [ ] - Vectors
-- [ ] - Vector Maths & Vector Arithmetic
+- [ x ] - Vectors
+- [ x ] - Vector Maths & Vector Arithmetic
 - [ ] - Trigonometry 
 - [ ] - Matrices
 - [ ] - Vector & Matrix Maths together

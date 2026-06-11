@@ -6,3 +6,6 @@
 #include "vector_3.hpp"
 #include "vector_4.hpp"
 
+// External
+#include <cmath>
+

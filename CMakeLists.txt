@@ -57,8 +57,28 @@ target_link_libraries( spicy-engine-main
 # Creates testing build
 add_executable( spicy-engine-testing spicy-engine/source/testing.cpp )
 
+# Adds test files to the testing scene
+target_sources( engine
+
+    PUBLIC
+     
+        # Tests
+        spicy-engine/source/tests/vector_2_test.cpp
+        spicy-engine/source/tests/vector_3_test.cpp
+        spicy-engine/source/tests/vector_4_test.cpp
+
+)
+
+target_include_directories( engine
+
+    PUBLIC
+
+        ${CMAKE_CURRENT_SOURCE_DIR}/spicy-engine/header/tests
+)
+
 target_link_libraries( spicy-engine-testing
 
     PRIVATE
         engine
 )
+
