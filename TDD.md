@@ -1,5 +1,14 @@
 Technical Design Document.
 
+# Main Page
+
+## About
+
+This is the technical design document for the project where the code will be documented, and why it was written the way it was.
+I well detail clearly: how the code function, why the code has been written this way, when the code should be used, and how the code is used.
+
+# Syling Guide
+
 ## Writing Code
 
 ### Naming Conventions
@@ -72,11 +81,10 @@ Code ==comments== will use default c++ comments structure.
 
 // Variable documentation is used with the same style of doxygen comments with an arrow afterwards
 
-
 int var; /**< Single line descriptions */
 
 int var; //!< Detailed description of the member
          //!< using more than one line
-         
+
 ```
 
